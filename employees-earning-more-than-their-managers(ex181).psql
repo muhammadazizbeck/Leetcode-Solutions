@@ -1,0 +1,7 @@
+SELECT x1.name AS Employee
+FROM Employee x1
+WHERE x1.salary > (
+    SELECT x2.salary
+    FROM Employee x2
+    WHERE x2.id = x1.managerId
+)
