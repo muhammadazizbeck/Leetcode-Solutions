@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        solution1
+        #solution1
         nums.sort()
         left,right = 0,len(nums)
         while left<right:
@@ -15,6 +15,6 @@ class Solution(object):
                 left = mid+1
         return left
 
-        solution2
+        #solution2
         n = len(nums)
         return (n*(n+1)/2)-sum(nums)
