@@ -1,0 +1,23 @@
+class Solution(object):
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        num_set = set(nums)
+        return 2*sum(num_set)-sum(nums)
+
+        # final = Counter(nums)
+        # for num, count in final.items():
+        #     if count==1:
+        #         return num
+
+        # if len(nums)==1:
+        #     return nums[0]
+        
+        # nums.sort()
+        
+        # for i in range(0,len(nums)-1,2):
+        #     if nums[i] != nums[i+1]:
+        #         return nums[i]
+        # return nums[-1]
