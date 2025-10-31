@@ -16,8 +16,6 @@ class MyQueue(object):
             while self.stack_in:
                 self.stack_out.append(self.stack_in.pop())
 
-        
-
     def pop(self):
         """
         :rtype: int
@@ -39,8 +37,7 @@ class MyQueue(object):
         :rtype: bool
         """
         return not self.stack_in and not self.stack_out
-        
-
+    
 
 # Your MyQueue object will be instantiated and called as such:
 # obj = MyQueue()
