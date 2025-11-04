@@ -15,3 +15,5 @@ class Solution(object):
         # return total >= 26
 
         return len(set(sentence))==26
+    
+    
