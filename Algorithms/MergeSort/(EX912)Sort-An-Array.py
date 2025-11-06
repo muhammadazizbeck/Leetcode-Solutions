@@ -28,3 +28,5 @@ class Solution:
             return result
         
         return merge_sort(nums)
+    
+#bu sortingni merge sort funksiyasi orqali
