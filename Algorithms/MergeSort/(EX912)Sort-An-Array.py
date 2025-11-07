@@ -29,4 +29,3 @@ class Solution:
         
         return merge_sort(nums)
     
-#bu sortingni merge sort funksiyasi orqali
