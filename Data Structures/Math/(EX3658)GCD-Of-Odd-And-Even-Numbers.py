@@ -1,3 +1,4 @@
+from math import gcd
 class Solution:
     def gcdOfOddEvenSums(self, n: int) -> int:
         sum_odd = 0
