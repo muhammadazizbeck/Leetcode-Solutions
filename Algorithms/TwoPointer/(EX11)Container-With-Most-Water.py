@@ -14,4 +14,3 @@ class Solution:
         return max_water
     
 
-# this is problem which is solved by Azizbek
