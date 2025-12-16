@@ -12,3 +12,5 @@ class Solution:
             result += length
 
         return result
+
+        #new line 
